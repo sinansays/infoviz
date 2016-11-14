@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Laws of Accelerating Change</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Here</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#moores">Moore's Law: CPUs and GPUs</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#hdd">Hard Drive Storage</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#genome">Genomic Sequencing</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Laws of Accelerating Change</h1>
+
+                    <p>
+                    This site is a project for SI 649: Information Visualization, taught at the University of Michigan School of Information. It is designed responsively and renders well on both desktop and mobile.
+                    </p><br>
+                    <p>second para.</p><br>
+                    <p>third para.</p><br>
+
+                    <a class="btn btn-default page-scroll" href="#moores">Dive in!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Moore's Law Section -->
+    <section id="moores" class="moores-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Moore's Law</h1>
+                    <div id="container_moores" style="height: 300px"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HDD Cost Section -->
+    <section id="hdd" class="hdd-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Cost of Hard Drive Storage</h1>
+                    <div id="container_hdd" style="height: 300px"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Genome Section -->
+    <section id="genome" class="genome-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Cost of Genomic Sequencing</h1>
+                    <div id="container_genome" style="height: 300px"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- High Charts -->
+    <script type="text/javascript" src="http://code.highcharts.com/stock/highstock.js"></script>
+    <script src="chart1.js"></script>
+    <script src="chart2.js"></script>
+    <script src="chart3.js"></script>
+
+</body>
+</html>
