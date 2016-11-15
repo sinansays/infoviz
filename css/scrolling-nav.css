@@ -33,28 +33,35 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+    padding-top: 100px;
+    text-align: left;
+    background: #eee;
 }
 
 .moores-section {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    padding-top: 100px;
+    text-align: left;
     background: #fff;
 }
 
 .hdd-section {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    padding-top: 100px;
+    text-align: left;
     background: #fff;
 }
 
 .genome-section {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    padding-top: 100px;
+    text-align: left;
     background: #fff;
+}
+
+.sources-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: left;
+    background: #eee;
 }

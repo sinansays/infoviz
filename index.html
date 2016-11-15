@@ -54,6 +54,9 @@
                     <li>
                         <a class="page-scroll" href="#genome">Genomic Sequencing</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#sources">Sources</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -66,14 +69,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Laws of Accelerating Change</h1>
-
+                    <h1>Laws of Accelerating Change</h1><br>
                     <p>
-                    This site is a project for SI 649: Information Visualization, taught at the University of Michigan School of Information. It is designed responsively and renders well on both desktop and mobile.
-                    </p><br>
-                    <p>second para.</p><br>
-                    <p>third para.</p><br>
-
+                    This site is a project for <a href="https://www.si.umich.edu/programs/courses/649">SI 649: Information Visualization</a>, a course taught at the University of Michigan School of Information.
+                    </p>
+                    <p>Since the mid-20th Century, the pace of technological advancement has been exponentially increasing. These changes are encapsulated in a few "laws", most notable of which is Moore's Law (discussed below). These are observations or projections and not physical or natural laws. The trend of faster performance occuring simultaneously with decreasing cost have been the norm for decades now. They occur across a variety of electronic and biotechnological components and processes, a few of which are expanded upon in the sections below.</p>
+                    <p>These advances impact one another in profound ways. For example, certain developments, like genomic sequencing, have come to rely on advancements in microelectronics such as computer processing, memory, and storage capacity. Genomic sequencing technology is a potent example of the application of advancements in microelectronics to an area with great impact on human health research. Otherwise, the purpose/impact of accelerating change in microelectronics becomes more abstract and harder to appreciate.</p>
+                    <p>The three sections below present various technologies with annotated timelines of either their performance or cost trend for the years 2001-2015. Kcey milestones are flagged with annotated bubbles that can be hovered over to reveal their details. You should by the end be able to recognize these milestones within the specific period of history of each presented technology, which together offer evidence for the existence of the "laws" of accelerating change. While many of the fundamental advances for these technologies were made in the decades prior to the 2000s, exact data from that time is harder to come by, and so the project is limited to 2001-2015.</p><br>
                     <a class="btn btn-default page-scroll" href="#moores">Dive in!</a>
                 </div>
             </div>
@@ -85,8 +87,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Moore's Law</h1>
-                    <div id="container_moores" style="height: 300px"></div>
+                    <h1>Moore's Law</h1><br>
+                    <p>Moore's Law is the observation that the number of transistors in a dense integrated circuit doubles approximately every two years, contributing to a doubling of chip performance in the same timeframe. The law has been accurate for several decades and is used in the semiconductor industry to guide long-term planning and to set targets for research and development. You'll note there are two lines below: one representing transistors per central processing unit (T/CPU), and another for transistors per graphics processing unit (T/GPU) -- both components are very large, semiconducting integrated circuits that benefit from Moore's Law. They evidently track very closely to one another, owing to the same fundamental advances in the field.</p><br>
+                    <div id="container_moores" style="height: 300px"></div><br>
+                    <p>Within this time period, many innovations occurred in the early half, followed by a long stretch of incremental improvement (coinciding with the dawn of mobile device chips). As the decade wore on, innovations became less frequent, but the pace of transistor density increase has remained, albeit somewhat slackened.</p><br>
+                    <a class="btn btn-default page-scroll" href="#hdd">Continue!</a>
                 </div>
             </div>
         </div>
@@ -97,8 +102,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Cost of Hard Drive Storage</h1>
-                    <div id="container_hdd" style="height: 300px"></div>
+                    <h1>Cost of Hard Drive Storage</h1><br>
+                    <p>The pace of advancement in hard disk storage has occurred at a rate similar to that of what Moore's Law has done for semiconductors. It's remarkable how a series of breakthroughs occurred in parallel to the semiconductor industry for an entirely different technology: spinning magnetic platters and metal read-heads.</p>
+                    <p>Cost for storage has gone down exponentially, enabling a host of advancements elsewhere in technology, such as the rise of Big Data. With commoditized storage, the cost to store increasingly large amounts of data becomes less and less, incentivizing the development and application of sophisticated algorithms to smartly mine that data and generate insights.</p><br>
+                    <div id="container_hdd" style="height: 300px"></div><br>
+                    <p>A notable event in the timeline of hard drive cost trends is the 2011 Thailand flooding catastrophe, which knocked offline a quarter of the world's hard drive manufacturing capacity. This speaks to the dense concentration of hard drive manufacturing in just a few locations in East Asia, and how fragile the supply chain can be.</p>
+                    <p>As time goes by, hard drive technology is being supplanted by solid state storage technology, which itself relies on Moore's Law and gains in transistor density to achieve exponentially lower cost points. Still, large-scale storage is best conducted with traditional hard disk drives, and the point at which terabyte-scale solid state storage can compete with hard drives on a cost-basis is at least 5-10 years away.</p><br>
+                    <a class="btn btn-default page-scroll" href="#genome">Continue!</a>
                 </div>
             </div>
         </div>
@@ -109,8 +119,39 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Cost of Genomic Sequencing</h1>
-                    <div id="container_genome" style="height: 300px"></div>
+                    <h1>Cost of Genomic Sequencing</h1><br>
+                    <p>The National Human Genome Research Institute (NHGRI) has tracked the costs associated with DNA sequencing performed at the sequencing centers funded by the Institute. It provides the following background:<p>
+                    <p>"The Human Genome Project (HGP), the first whole human genome sequencing in 2000,  cost over $3.7 billion and took 13 years of computing power. Today, it costs roughly $1,000 and takes fewer than three days. With trillions of genomes waiting to be sequenced, both human and otherwise, the genomic revolution is in its infancy.</p>
+                    <p>Since 2000, the cost to sequence a whole human genome has continued to collapse. From $3.7 billion, it dropped to $10 million in 2006, and to $5,000 in 2012. Today it costs $1,000. To date, the rate of the decline has outpaced Moore’s Law by three to four times. As shown below, at either the historic rate of decline or Moore’s Law, the cost to sequence a human genome will fall below $100 in the next five years." (Wetterstrand)</p><br>
+                    <div id="container_genome" style="height: 300px"></div><br>
+                    <p>"The data from 2001 through October 2007 represent the costs of generating DNA sequence using Sanger-based chemistries and capillary-based instruments ('first generation' sequencing platforms). Beginning in January 2008, the data represent the costs of generating DNA sequence using 'second-generation' (or 'next-generation') sequencing platforms. The change in instruments represents the rapid evolution of DNA sequencing technologies that has occurred in recent years." (Wetterstrand)
+                    <p>Caveat: "These data, however, do not capture all of the costs associated with the NHGRI Large-Scale Genome Sequencing Program. The sequencing centers perform a number of additional activities whose costs are not appropriate to include when calculating costs for production-oriented DNA sequencing. In other words, NHGRI makes a distinction between 'production' activities and 'non-production' activities. Production activities are essential to the routine generation of large amounts of quality DNA sequence data that are made available in public databases; the costs associated with production DNA sequencing are summarized here and depicted on the two graphs." (Wetterstrand)</p><br>
+                    <a class="btn btn-default page-scroll" href="#sources">Continue to sources</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sources Section -->
+    <section id="sources" class="sources-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Sources</h2><br>
+                    <p>Moore's law. Wikipedia, The Free Encyclopedia. (November 14, 2016). <a href="https://en.wikipedia.org/w/index.php?title=Moore%27s_law">https://en.wikipedia.org/w/index.php?title=Moore%27s_law</a></p>
+                    <p>Lammers, David. Moore's Law Milestones. IEEE Spectrum. (April 30, 2015) <a href="http://spectrum.ieee.org/geek-life/history/moores-law-milestones">http://spectrum.ieee.org/geek-life/history/moores-law-milestones</a></p>
+                    <p>Timeline of Major Developments in Hard Drive Technology. Machinecity (Retrieed: November 14, 2016). <a href="http://machinecitybd.com/timeline-of-major-developments-in-hard-drive-technology/">http://machinecitybd.com/timeline-of-major-developments-in-hard-drive-technology/</a></p>
+                    <p>Farrance, Rex. 50 Years of Hard Drives. PCWorld (September 13, 2006). <a href="http://www.pcworld.com/article/127105/article.html">http://www.pcworld.com/article/127105/article.html</a></p>
+                    <p>BusinessWire, Seagate Reaches 1 Terabit Per Square Inch Milestone in Hard Drive Storage with New Technology Demonstration (March 19, 2012) <a href="http://www.businesswire.com/news/home/20120319005061/en/Seagate-Reaches-1-Terabit-Square-Inch-Milestone">http://www.businesswire.com/news/home/20120319005061/en/Seagate-Reaches-1-Terabit-Square-Inch-Milestone
+                    </a></p>
+                    <p>Kovar, Joseph F., The History Of The Hard Drive And Its Future, CRN (December 20, 2012). <a href="http://www.crn.com/slide-shows/storage/240142353/the-history-of-the-hard-drive-and-its-future.htm/pgno/0/21">http://www.crn.com/slide-shows/storage/240142353/the-history-of-the-hard-drive-and-its-future.htm/pgno/0/21
+                    </a></p>
+                    <p>History of hard disk drives. Wikipedia, The Free Encyclopedia. (November 14, 2016). <a href="https://en.wikipedia.org/w/index.php?title=History_of_hard_disk_drives">https://en.wikipedia.org/w/index.php?title=History_of_hard_disk_drives</a></p>
+                    <p>Wetterstrand KA. DNA Sequencing Costs: Data from the NHGRI Genome Sequencing Program (GSP) Available at: <a href="http://www.genome.gov/sequencingcostsdata">http://www.genome.gov/sequencingcostsdata</a>Accessed November 14, 2016.</p>
+                    <p>Shotgun sequencing. Wikipedia, The Free Encyclopedia (October 8, 2016). <a href="https://en.wikipedia.org/w/index.php?title=Shotgun_sequencing">https://en.wikipedia.org/w/index.php?title=Shotgun_sequencing</a></p>
+                    <p>Nanopore sequencing. Wikipedia, The Free Encyclopedia (October 18, 2016). <a href="https://en.wikipedia.org/w/index.php?title=Nanopore_sequencing">https://en.wikipedia.org/w/index.php?title=Nanopore_sequencing</a></p>
+                    <p>2 base encoding. Wikipedia, The Free Encyclopedia (October 12, 2016). <a href="https://en.wikipedia.org/w/index.php?title=2_base_encoding">https://en.wikipedia.org/w/index.php?title=2_base_encoding</a></p>
+                    <br><br>
                 </div>
             </div>
         </div>

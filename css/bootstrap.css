@@ -264,7 +264,7 @@ th {
 @font-face {
   font-family: "Lato", sans-serif !important;
   font-style: normal;
-  src: url('../fonts/Lato-Regular.ttf')
+  src: url('fonts/Lato-Regular.ttf')
 
 }
 * {
